@@ -1,3 +1,0 @@
-[submodule "openni_wrapper/OpenNI2"]
-	path = openni_wrapper/OpenNI2
-	url = https://github.com/OpenNI/OpenNI2.git
