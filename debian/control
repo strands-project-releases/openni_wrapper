@@ -1,0 +1,12 @@
+Source: ros-hydro-openni-wrapper
+Section: misc
+Priority: extra
+Maintainer: Rares Ambrus <raambrus@kth.se>
+Build-Depends: debhelper (>= 9.0.0), default-jdk, freeglut3-dev, libudev-dev, libusb-1.0-0-dev, ros-hydro-catkin, ros-hydro-class-loader, ros-hydro-cv-bridge, ros-hydro-nodelet, ros-hydro-roscpp, ros-hydro-rospy, ros-hydro-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-openni-wrapper
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, freeglut3-dev, libusb-1.0-0-dev, ros-hydro-class-loader, ros-hydro-cv-bridge, ros-hydro-nodelet, ros-hydro-roscpp, ros-hydro-rospy, ros-hydro-std-msgs
+Description: The openniWrapper package
