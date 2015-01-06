@@ -2,6 +2,13 @@
 Changelog for package openni_wrapper
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+0.0.6 (2015-01-06)
+------------------
+* Merge pull request `#15 <https://github.com/strands-project/openni_wrapper/issues/15>`_ from cburbridge/hydro-devel
+  Update OpenNI2 from occipital/OpenNI2.
+* Update OpenNI2 from occipital/OpenNI2.
+* Contributors: Chris Burbridge, Rareș Ambruș
+
 0.0.5 (2014-11-09)
 ------------------
 * Merge pull request `#13 <https://github.com/strands-project/openni_wrapper/issues/13>`_ from Jailander/hydro-devel
