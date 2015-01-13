@@ -1,3 +1,24 @@
+## openni_wrapper (indigo) - 0.0.8-0
+
+The packages in the `openni_wrapper` repository were released into the `indigo` distro by running `/usr/bin/bloom-release openni_wrapper -t indigo -r indigo` on `Tue, 13 Jan 2015 14:11:07 -0000`
+
+The `openni_wrapper` package was released.
+
+Version of package(s) in repository `openni_wrapper`:
+- upstream repository: https://github.com/strands-project/openni_wrapper.git
+- release repository: https://github.com/strands-project-releases/openni_wrapper.git
+- rosdistro version: `0.0.7-0`
+- old version: `0.0.7-0`
+- new version: `0.0.8-0`
+
+Versions of tools used:
+- bloom version: `0.5.16`
+- catkin_pkg version: `0.2.6`
+- rosdep version: `0.11.0`
+- rosdistro version: `0.4.0`
+- vcstools version: `0.1.36`
+
+
 ## openni_wrapper (indigo) - 0.0.7-0
 
 The packages in the `openni_wrapper` repository were released into the `indigo` distro by running `/usr/bin/bloom-release openni_wrapper -t indigo -r indigo -n` on `Tue, 06 Jan 2015 11:13:49 -0000`
