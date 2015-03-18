@@ -3,7 +3,7 @@ project(openni_wrapper)
 
 set(CMAKE_CXX_FLAGS "-g -fPIC -std=c++0x -fpermissive")
 
-find_package(catkin REQUIRED COMPONENTS roscpp rospy std_msgs cv_bridge nodelet class_loader)
+find_package(catkin REQUIRED COMPONENTS roscpp rospy std_msgs cv_bridge nodelet class_loader image_proc depth_image_proc)
 find_package(OpenCV REQUIRED )
 
 set(OPENNI2.2_DIR ${CMAKE_CURRENT_SOURCE_DIR})
@@ -16,7 +16,7 @@ include_directories(${OPENNI2.2_DIR}/OpenNI2/Include)
 
 catkin_package(
    INCLUDE_DIRS include
-   CATKIN_DEPENDS roscpp rospy std_msgs cv_bridge nodelet class_loader
+   CATKIN_DEPENDS roscpp rospy std_msgs cv_bridge nodelet class_loader image_proc depth_image_proc
    DEPENDS libudev-dev libopencv-dev libusb-1.0-dev glut
 )
 
