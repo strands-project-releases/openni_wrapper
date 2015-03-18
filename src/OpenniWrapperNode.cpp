@@ -72,7 +72,7 @@ void OpenniWrapperNode::initializeOpenni()
     if (rc != STATUS_OK)
     {
         printf("Initialize failed\n%s\n", OpenNI::getExtendedError());
-        return 1;
+        return;
     } else {
         cout<<"Openni initialized"<<endl;
     }
@@ -109,7 +109,7 @@ void OpenniWrapperNode::initializeOpenni()
         if (rc != STATUS_OK)
         {
             printf("Couldn't open device\n%s\n", OpenNI::getExtendedError());
-            return 2;
+            return;
         } else {
             cout<<"Opened device "<<deviceList[0].getUri()<<"   namespace "<<m_vCameraNamespace[i]<<endl;
         }

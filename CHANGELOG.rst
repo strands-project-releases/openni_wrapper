@@ -7,6 +7,19 @@ Changelog for package openni_wrapper
 * indigo0.0.7
 * Contributors: Chris Burbridge
 
+0.0.9 (2015-03-18)
+------------------
+* Merge pull request `#18 <https://github.com/strands-project/openni_wrapper/issues/18>`_ from RaresAmbrus/indigo-devel
+  Added image_proc and depth_image_proc dependencies
+* Added image_proc and depth_image_proc dependencies
+* Merge pull request `#16 <https://github.com/strands-project/openni_wrapper/issues/16>`_ from hawesie/indigo-devel
+  Removed incorrect return values.
+* Removed incorrect return values.
+* indigo-0.0.8
+* Update changelog.
+* indigo0.0.7
+* Contributors: Chris Burbridge, Marc Hanheide, Nick Hawes, Rares
+
 0.0.6 (2015-01-06)
 ------------------
 * Merge pull request `#15 <https://github.com/strands-project/openni_wrapper/issues/15>`_ from cburbridge/hydro-devel
