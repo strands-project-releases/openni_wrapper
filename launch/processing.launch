@@ -66,7 +66,7 @@
         respawn="$(arg respawn)">
 	<remap from="rgb/camera_info" to="$(arg rgb_camera_info)"/>
   	<remap from="rgb/image_rect_color" to="$(arg camera)/rgb/image_rect_color"/>    
-        <remap from="depth_registered/image_rect" to="$(arg camera)/depth/image_rect"/>    
+        <remap from="depth_registered/image_rect" to="$(arg camera)/depth_registered/image_rect"/>    
         <remap from="depth_registered/points" to="$(arg camera)/depth_registered/points"/>    
   </node>
 
