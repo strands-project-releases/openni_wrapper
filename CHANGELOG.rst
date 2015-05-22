@@ -7,6 +7,9 @@ Changelog for package openni_wrapper
 * indigo0.0.7
 * Contributors: Chris Burbridge
 
+0.0.11 (2015-05-22)
+-------------------
+
 0.0.10 (2015-03-26)
 -------------------
 * Merge pull request `#19 <https://github.com/strands-project/openni_wrapper/issues/19>`_ from RaresAmbrus/indigo-devel
