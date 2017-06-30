@@ -1,0 +1,107 @@
+ros-kinetic-openni-wrapper (0.0.11-0xenial) xenial; urgency=high
+
+
+
+ -- Rares Ambrus <raambrus@kth.se>  Thu, 21 May 2015 23:00:00 -0000
+
+ros-kinetic-openni-wrapper (0.0.10-0xenial) xenial; urgency=high
+
+  * Merge pull request #19 <https://github.com/strands-project/openni_wrapper/issues/19> from RaresAmbrus/indigo-devel
+    Using the depth sw registration (this should fix the simulation image nodes)
+  * Using the depth sw registration (this should fix the simulation image nodes)
+  * Contributors: Rares Ambrus, Rareș Ambruș
+
+ -- Rares Ambrus <raambrus@kth.se>  Thu, 26 Mar 2015 00:00:00 -0000
+
+ros-kinetic-openni-wrapper (0.0.9-0xenial) xenial; urgency=high
+
+  * Merge pull request #18 <https://github.com/strands-project/openni_wrapper/issues/18> from RaresAmbrus/indigo-devel
+    Added image_proc and depth_image_proc dependencies
+  * Added image_proc and depth_image_proc dependencies
+  * Merge pull request #16 <https://github.com/strands-project/openni_wrapper/issues/16> from hawesie/indigo-devel
+    Removed incorrect return values.
+  * Removed incorrect return values.
+  * indigo-0.0.8
+  * Update changelog.
+  * indigo0.0.7
+  * Contributors: Chris Burbridge, Marc Hanheide, Nick Hawes, Rares
+
+ -- Rares Ambrus <raambrus@kth.se>  Wed, 18 Mar 2015 00:00:00 -0000
+
+ros-kinetic-openni-wrapper (0.0.8-0xenial) xenial; urgency=high
+
+  * indigo0.0.7
+  * Contributors: Chris Burbridge
+
+ -- Rares Ambrus <raambrus@kth.se>  Tue, 13 Jan 2015 00:00:00 -0000
+
+ros-kinetic-openni-wrapper (0.0.6-0xenial) xenial; urgency=high
+
+  * Merge pull request #15 <https://github.com/strands-project/openni_wrapper/issues/15> from cburbridge/hydro-devel
+    Update OpenNI2 from occipital/OpenNI2.
+  * Update OpenNI2 from occipital/OpenNI2.
+  * Contributors: Chris Burbridge, Rareș Ambruș
+
+ -- Rares Ambrus <raambrus@kth.se>  Tue, 06 Jan 2015 00:00:00 -0000
+
+ros-kinetic-openni-wrapper (0.0.5-0xenial) xenial; urgency=high
+
+  * Merge pull request #13 <https://github.com/strands-project/openni_wrapper/issues/13> from Jailander/hydro-devel
+    final and tested version of env-loader
+  * final and tested version of env-loader
+  * Merge pull request #12 <https://github.com/strands-project/openni_wrapper/issues/12> from Jailander/hydro-devel
+    new env loader on machine tag
+  * new env loader on machine tag
+  * Contributors: Jaime Pulido Fentanes, Marc Hanheide
+
+ -- Rares Ambrus <raambrus@kth.se>  Sun, 09 Nov 2014 00:00:00 -0000
+
+ros-kinetic-openni-wrapper (0.0.4-0xenial) xenial; urgency=high
+
+  * Merge pull request #11 <https://github.com/strands-project/openni_wrapper/issues/11> from RaresAmbrus/hydro-devel
+    Removed OpenNI2 submodule and replaced with subtree
+  * Merge commit '5b17aecf313fe4fd0f14e382f8ee6dfb4b60a409' as 'OpenNI2'
+  * Squashed 'OpenNI2/' content from commit 115cf06
+    git-subtree-dir: OpenNI2
+    git-subtree-split: 115cf06c6efea32304182d293eca16ca883c9150
+  * Removed openni2 submodule
+  * Removed openni2 submodule
+  * Contributors: Marc Hanheide, Rares Ambrus
+
+ -- Rares Ambrus <raambrus@kth.se>  Wed, 05 Nov 2014 00:00:00 -0000
+
+ros-kinetic-openni-wrapper (0.0.3-0xenial) xenial; urgency=high
+
+  * Merge pull request #10 <https://github.com/strands-project/openni_wrapper/issues/10> from RaresAmbrus/hydro-devel
+    Re-arranged folder structure of openni_wrapper
+  * Removed unnecessary 3rd party folder. Not needed in the release branch
+  * Setup new submodule path
+  * removing old .gitmodules
+  * Changed OpenNI2 submodule path
+  * Removed empty openni_wrapper folder
+  * Moved contents of openni_wrapper folder one level up
+  * Contributors: Rares Ambrus, RaresAmbrus
+
+ -- Rares Ambrus <raambrus@kth.se>  Wed, 05 Nov 2014 00:00:00 -0000
+
+ros-kinetic-openni-wrapper (0.0.2-0xenial) xenial; urgency=high
+
+  * changed path for new OpenNI2 submodule
+  * added new location
+  * Added install rules for OpenNI2 and updated openni_wrapper to use installed library
+  * Added license file and fixed library install
+  * Changed license to Apache v2.0
+  * Added glut dependency
+  * Added java dependency
+  * changed libusb dependency to something rosdep can find
+  * Fixed libusb dependency name
+  * Added libusb as a dependency
+  * Removed ros-hydro-opencv2 dependency from package.xml
+  * Fixed maintainer name and added some dependencies in package.xml
+  * Enabling hardware registration
+  * Moved openni files to root openni_folder
+  * Contributors: Marc Hanheide, Rares Ambrus
+
+ -- Rares Ambrus <raambrus@kth.se>  Tue, 04 Nov 2014 00:00:00 -0000
+
+
