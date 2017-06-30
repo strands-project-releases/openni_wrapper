@@ -1,3 +1,26 @@
+## openni_wrapper (kinetic) - 0.0.11-0
+
+The packages in the `openni_wrapper` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release -n -t kinetic -r kinetic openni_wrapper` on `Fri, 30 Jun 2017 11:13:33 -0000`
+
+The `openni_wrapper` package was released.
+
+Version of package(s) in repository `openni_wrapper`:
+
+- upstream repository: https://github.com/strands-project/openni_wrapper.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.0.11-0`
+
+Versions of tools used:
+
+- bloom version: `0.5.26`
+- catkin_pkg version: `0.3.5`
+- rosdep version: `0.11.5`
+- rosdistro version: `0.6.2`
+- vcstools version: `0.1.39`
+
+
 ## openni_wrapper (indigo) - 0.0.11-0
 
 The packages in the `openni_wrapper` repository were released into the `indigo` distro by running `/usr/bin/bloom-release --non-interactive -t indigo -r indigo openni_wrapper` on `Fri, 22 May 2015 14:27:37 -0000`
