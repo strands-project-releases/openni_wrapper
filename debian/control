@@ -1,0 +1,12 @@
+Source: ros-melodic-openni-wrapper
+Section: misc
+Priority: optional
+Maintainer: Rares Ambrus <raambrus@kth.se>
+Build-Depends: debhelper (>= 9.0.0), default-jdk, freeglut3-dev, libudev-dev, libusb-1.0-0-dev, ros-melodic-catkin, ros-melodic-class-loader, ros-melodic-cv-bridge, ros-melodic-depth-image-proc, ros-melodic-image-proc, ros-melodic-nodelet, ros-melodic-roscpp, ros-melodic-rospy, ros-melodic-std-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-melodic-openni-wrapper
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, freeglut3-dev, libusb-1.0-0-dev, ros-melodic-class-loader, ros-melodic-cv-bridge, ros-melodic-depth-image-proc, ros-melodic-image-proc, ros-melodic-nodelet, ros-melodic-roscpp, ros-melodic-rospy, ros-melodic-std-msgs
+Description: The openniWrapper package
