@@ -17,4 +17,4 @@
       inst_->terminateOpenni();
   }
 
-  PLUGINLIB_DECLARE_CLASS(openni_wrapper,OpenniWrapperNodelet, OpenniWrapperNodelet, nodelet::Nodelet)
+  PLUGINLIB_EXPORT_CLASS(OpenniWrapperNodelet, nodelet::Nodelet)
